@@ -114,3 +114,10 @@ footer .shareIcon > img {
   width: 50%;
   height: 50%;
 }
+
+.moreShare {
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  background-color: red;
+}

@@ -12,6 +12,7 @@ body {
   height: 45%;
   background: var(--white);
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .wrapper .imgSection {
@@ -21,8 +22,8 @@ body {
 }
 
 .imgSection > img {
-  width: 100%;
-  height: 100%;
+  width: 27rem;
+  height: 19rem;
 }
 
 .txtSection {

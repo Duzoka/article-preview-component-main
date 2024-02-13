@@ -51,6 +51,8 @@
   }
 }
 
+
+
 @media only screen and (min-width: 414px) and (min-height: 736px) {
   .wrapper {
     width: 90%;
@@ -77,10 +79,23 @@
 
   footer {
     margin-top: 15%;
+    height: 10%;
   }
 }
 
-/* Media query corrigida para (min-width: 375px) and (max-height: 812px) */
+@media only screen and (min-width: 414px) and (min-height: 896px) {
+  footer {
+    height: 15%;
+  }
+}
+
+@media only screen and (min-width: 412px) and (min-height: 846px) {
+  footer {
+    height: 15%;
+  }
+}
+
+
 @media only screen and (min-width: 375px) and (min-height: 812px) {
   .wrapper {
     width: 90%;
@@ -110,7 +125,23 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 688px) and (min-height: 1031px) {
+  header>h1 {
+    font-size: 2rem;
+  }
+
+  .flex {
+    font-size: 1rem;
+  } 
+
+  footer {
+    margin-top: 10%;
+    height: 17%;
+    padding: 0 5%;
+  }
+}
+
+@media only screen and (min-width: 860px) and (max-width: 900px){
   .wrapper {
     display: flex;
     width: 50%;
@@ -133,7 +164,65 @@
     gap: 8%;
   }
 
+  header>h1 {
+    font-size: 1rem;
+  }
+
+  .flex {
+    font-size: 0.8rem;
+  }
+
   footer {
+    height: 20%;
     margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .wrapper {
+    display: flex;
+    width: 50%;
+    height: 45%;
+    flex-direction: row;
+  }
+
+  .wrapper .imgSection {
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .txtSection {
+    display: flex;
+    width: 55%;
+    height: 100%;
+    flex-direction: column;
+    padding: 5% 5% 3% 5%;
+    gap: 8%;
+  }
+
+  header>h1 {
+    font-size: 1rem;
+  }
+
+  .flex {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    height: 15%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  footer {
+    height: 20%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 800px) {
+  .txtSection {
+    margin-top: 0;
   }
 }
